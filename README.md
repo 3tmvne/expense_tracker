@@ -1,17 +1,68 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+A simple **Flutter** expense tracking app that lets you add, view, and delete expenses. It shows a running **Total Spent** and groups each expense by **category**.
+
+## Features
+
+- Add a new expense (title, amount, category)
+- View total spent and number of transactions
+- Swipe to delete an expense
+- Material 3 UI
+
+## Screens / UX
+
+- Home screen with a total-spent header and a list of transactions
+- “Add Expense” button opens a bottom sheet form
+
+## Categories
+
+The app includes these built-in categories:
+
+- Food
+- Transport
+- Shopping
+- Health
+- Entertainment
+- Other
+
+## Tech Stack
+
+- Flutter / Dart
+- Material 3
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed
+- A configured device/emulator (Android/iOS) or a browser for Flutter web
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Run locally
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
+
+### Run tests
+
+```bash
+flutter test
+```
+
+## Configuration Notes
+
+- Currency label in the UI is currently **DH** (see `lib/main.dart`).
+
+## Project Structure (high level)
+
+- `lib/main.dart` — app entry point and UI
+- `android/`, `ios/`, `web/`, `windows/`, `linux/`, `macos/` — platform folders
+
+## Contributing
+
+PRs are welcome. For bigger changes, please open an issue first to discuss what you’d like to change.
+
+## License
+
+No license file is included in this repository yet. If you plan to open-source this project, consider adding a LICENSE file (for example: MIT, Apache-2.0, or GPL-3.0).
