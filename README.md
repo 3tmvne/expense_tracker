@@ -62,7 +62,3 @@ flutter test
 ## Contributing
 
 PRs are welcome. For bigger changes, please open an issue first to discuss what you’d like to change.
-
-## License
-
-No license file is included in this repository yet. If you plan to open-source this project, consider adding a LICENSE file (for example: MIT, Apache-2.0, or GPL-3.0).
